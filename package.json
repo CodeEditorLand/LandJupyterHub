@@ -61,10 +61,10 @@
 	"devDependencies": {
 		"@types/chai": "5.0.1",
 		"@types/chai-as-promised": "8.0.1",
-		"@types/node": "22.10.9",
+		"@types/node": "22.10.10",
 		"@types/node-fetch": "2.6.12",
 		"@types/sinon": "17.0.3",
-		"@types/ws": "8.5.13",
+		"@types/ws": "8.5.14",
 		"assert": "2.1.0",
 		"chai": "5.1.2",
 		"chai-as-promised": "8.0.1",
