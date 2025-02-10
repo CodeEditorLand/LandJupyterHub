@@ -25,6 +25,7 @@
 		"test:web:ci": "node ./out/test/runTest.web.js",
 		"updateBuildNumber": "node ./build/updateBuildNumber.js"
 	},
+	"l10n": "./l10n",
 	"contributes": {
 		"configuration": {
 			"properties": {
@@ -61,14 +62,14 @@
 	"devDependencies": {
 		"@types/chai": "5.0.1",
 		"@types/chai-as-promised": "8.0.1",
-		"@types/node": "22.13.0",
+		"@types/node": "22.13.1",
 		"@types/node-fetch": "2.6.12",
 		"@types/sinon": "17.0.3",
 		"@types/ws": "8.5.14",
 		"assert": "2.1.0",
 		"chai": "5.1.2",
 		"chai-as-promised": "8.0.1",
-		"esbuild": "0.24.2",
+		"esbuild": "0.25.0",
 		"glob": "11.0.1",
 		"sinon": "19.0.2",
 		"timers-browserify": "2.0.12",
@@ -97,6 +98,5 @@
 	},
 	"devDependenciesComments": {
 		"@types/react": "Added to ensure @lumino compiles, @lumino is a dependency of Jupyter Lab npm"
-	},
-	"l10n": "./l10n"
+	}
 }
