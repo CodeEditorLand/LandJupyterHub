@@ -50,7 +50,7 @@
 		"onNotebook:interactive"
 	],
 	"dependencies": {
-		"@jupyterlab/services": "7.3.5",
+		"@jupyterlab/services": "7.3.6",
 		"buffer": "6.0.3",
 		"events": "3.3.0",
 		"isomorphic-ws": "5.0.0",
@@ -60,18 +60,18 @@
 		"util": "0.12.5"
 	},
 	"devDependencies": {
-		"@types/chai": "5.0.1",
-		"@types/chai-as-promised": "8.0.1",
-		"@types/node": "22.13.9",
+		"@types/chai": "5.2.0",
+		"@types/chai-as-promised": "8.0.2",
+		"@types/node": "22.13.10",
 		"@types/node-fetch": "2.6.12",
 		"@types/sinon": "17.0.4",
-		"@types/ws": "8.5.14",
+		"@types/ws": "8.18.0",
 		"assert": "2.1.0",
 		"chai": "5.2.0",
 		"chai-as-promised": "8.0.1",
-		"esbuild": "0.25.0",
+		"esbuild": "0.25.1",
 		"glob": "11.0.1",
-		"sinon": "19.0.2",
+		"sinon": "19.0.4",
 		"timers-browserify": "2.0.12",
 		"ts-loader": "9.5.2",
 		"ts-mockito": "2.6.1",
