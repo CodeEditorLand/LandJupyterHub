@@ -1,8 +1,30 @@
 {
 	"name": "jupyter-hub",
 	"displayName": "JupyterHub",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Support for connecting to Jupyter Hub in VS Code along with the Jupyter Extension",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandJupyterHub#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandJupyterHub/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandJupyterHub.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
 	"qna": "https://github.com/microsoft/vscode-jupyter/discussions",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./dist/extension.node.js",
 	"browser": "./dist/extension.web.js",
 	"scripts": {
@@ -16,6 +38,7 @@
 		"esbuild-web-watch": "npm run esbuild-base-web -- --sourcemap --watch",
 		"make-extension-pack-for-web-tests": "node ./build/makeExtensionPack.js",
 		"open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ./tmp",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"test-compile": "tsc -p ./",
 		"test-compile-watch": "tsc -p ./ --watch",
 		"test-compile-webpack": "webpack",
@@ -60,6 +83,7 @@
 		"util": "0.12.5"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/chai": "5.2.1",
 		"@types/chai-as-promised": "8.0.2",
 		"@types/node": "22.13.14",
@@ -83,6 +107,9 @@
 	"extensionDependencies": [
 		"ms-toolsai.jupyter"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#ffffff",
